@@ -15,6 +15,7 @@
 |------|----|-------|
 |groupname|string|null: false|
 |user_id|integer|null: false, foreign_key: true|
+|name|string|null: false|
 ### Association
 - belongs_to :user
 - has_many :messages
