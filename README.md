@@ -13,3 +13,9 @@
 |------|----|-------|
 |groupname|string|null: false|
 |user_id|integer|null: false, foreign_key: true|
+### Association
+- belongs_to :user
+- has_many :messages
+- has_many :groups_users
+- has_many :users, through: :groups_users
+
