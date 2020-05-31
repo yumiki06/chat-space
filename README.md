@@ -7,7 +7,7 @@
 |password|string|null: false|
 ### Association
 - has_many :messages
-- has_many :groupes, through: :groups_users
+- has_many :groups, through: :groups_users
 
 ## groupsテーブル
 |Column|Type|Options|
