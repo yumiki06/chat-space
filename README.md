@@ -6,7 +6,6 @@
 |email|string|null: false|
 |password|string|null: false|
 ### Association
-- has_many :groups
 - has_many :messages
 - has_many :groupes, through: :groups_users
 
