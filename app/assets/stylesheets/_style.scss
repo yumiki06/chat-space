@@ -105,6 +105,11 @@
         &__upper-info{
           margin-bottom: 12px;
           display: flex;
+          &__name{
+            font-size: 16px;
+            font-weight: bold;
+            color: #333333;
+          }
       }
     }
       }
