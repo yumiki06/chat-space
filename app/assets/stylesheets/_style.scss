@@ -102,6 +102,9 @@
       padding: 35px 40px;
       .message{
         margin-bottom: 46px;
+        &__upper-info{
+          margin-bottom: 12px;
+          display: flex;
       }
     }
       }
