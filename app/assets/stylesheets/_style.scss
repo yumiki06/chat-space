@@ -82,6 +82,17 @@
         width: 72px;
         height: 40px;
         position: relative;
+        &__text{
+          line-height: 40px;
+          padding: 0 20px;
+          font-size: 16px;
+          color: $skyblueForBtns;
+          position: absolute;
+          top: 0;
+          left: 0;
+          height: 100%;
+          width: 100%;
+        }
     }
       }
   }
