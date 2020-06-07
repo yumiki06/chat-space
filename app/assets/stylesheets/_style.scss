@@ -10,6 +10,13 @@
       background-color: #253141;
       display: flex;
       align-items: center;
+      .top-items{
+        height: 20px;
+        width: 260px;
+        margin: 0 20px;
+        display: flex;
+        justify-content: space-between;
+        }
       }  
     }
 }
