@@ -153,7 +153,14 @@
           }
         }
       }
+      .submit-btn{
+        color: #ffffff;
+        background-color: $skyblueForBtns;
+        width: 100px;
+        margin-left: 15px;
+        cursor: pointer;
       }
+    }
   }
   }
 }
