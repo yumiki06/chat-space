@@ -142,6 +142,11 @@
             height: 50px;
             width: calc(100vw - 300px - 80px - 100px - 15px);
           }
+          .pic-btn{
+            position: absolute;
+            right: 10px;
+            zoom: 1.5;
+            cursor: pointer;
           }
         }
       }
