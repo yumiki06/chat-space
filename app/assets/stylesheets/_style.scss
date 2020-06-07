@@ -24,6 +24,9 @@
           width: 60px;
           display: flex;
           justify-content: flex-end;
+          &__icon-cog{
+            margin-left: 5px;
+          }
         }
       }  
     }
