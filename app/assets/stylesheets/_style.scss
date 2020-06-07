@@ -55,6 +55,12 @@
   .main-chat{
     height: 100vh;
     width: calc(100vw - 300px);
+    &__group-info{
+      height: 100px;
+      background-color: #ffffff;
+      display: flex;
+      justify-content: space-between;
+      }
   }
   }
 }
