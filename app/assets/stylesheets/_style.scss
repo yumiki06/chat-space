@@ -147,6 +147,9 @@
             right: 10px;
             zoom: 1.5;
             cursor: pointer;
+            .file-select{
+              display: none;
+            }
           }
         }
       }
