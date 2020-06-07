@@ -96,6 +96,8 @@
         :visited {
           color: $skyblueForBtns;
         }
+      }
+    }
     &__message-list{
       height: calc(100vh - 100px - 90px);
       background-color: #fafafa;
@@ -115,6 +117,11 @@
             font-size: 12px;
             color: $greyForText;
           }
+        }
+        &__text{
+          font-size: 14px;
+          color: #434A54;
+        }
       }
     }
       }
