@@ -130,6 +130,14 @@
       padding: 20px 40px;
       .form-box{
         display: flex;
+        &__input-area{
+          position: relative;
+          height: 50px;
+          align-items: center;
+          display: flex;
+          background-color: #ffffff;
+          width: calc(100vw - 300px - 80px - 100px - 15px);
+          }
         }
       }
       }
