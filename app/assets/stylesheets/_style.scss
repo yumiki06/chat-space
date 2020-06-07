@@ -66,6 +66,11 @@
           color: #333333;
           font-size: 20px;
         }
+        &__member-list{
+          color: $greyForText;
+          font-size: 12px;
+          display: flex;
+          margin-top: 15px;
       }
   }
   }
