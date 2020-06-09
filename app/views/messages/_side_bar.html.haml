@@ -1,0 +1,29 @@
+.side-bar
+  .side-bar__user-name
+    .top-items
+      %p.top-items__name
+        なまえ
+      %ul.top-items__icons
+        %li.top-items__icons__icon-edit
+          = link_to "#" do
+            = icon('fas', 'edit')
+            %span<>
+        %li.top-items__icons__icon-cog
+          = link_to "#" do
+            = icon('fas', 'cog')
+            %span<>
+  .side-bar__group-list
+    .group
+      .group__title
+        = link_to "#" do
+          歓迎会
+      .group__notification
+        = link_to "#" do
+          まだメッセージがありません
+    .group
+      .group__title
+        = link_to "#" do
+          歓迎会
+      .group__notification
+        = link_to "#" do
+          まだメッセージがありません

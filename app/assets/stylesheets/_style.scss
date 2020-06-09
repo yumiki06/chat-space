@@ -1,0 +1,168 @@
+@import "variable";
+.wrapper{
+  display: flex;
+  .side-bar{
+    height: 100vh;
+    width: 300px;
+    color: #ffffff;
+    &__user-name{
+      height: 100px;
+      background-color: #253141;
+      display: flex;
+      align-items: center;
+      .top-items{
+        height: 20px;
+        width: 260px;
+        margin: 0 20px;
+        display: flex;
+        justify-content: space-between;
+        &__name{
+          font-size: 16px;
+          font-weight: bold;
+        }
+        &__icons{
+          width: 60px;
+          display: flex;
+          justify-content: flex-end;
+          &__icon-cog{
+            margin-left: 5px;
+          }
+        }
+      }  
+    }
+    &__group-list{
+      height: calc(100vh - 100px);
+      background-color: #2f3e51;
+      .group{
+        height: 100px;
+        width: 300px;
+        padding: 20px 20px 40px;
+        &__title{
+          width: 260px;
+          margin-bottom: 5px;
+          font-size: 15px;
+        }
+        &__notification{
+          width: 260px;
+          font-size: 11px;
+        }
+      }
+    }
+    :visited {
+      color: #ffffff;
+    }    
+  }
+  .main-chat{
+    height: 100vh;
+    width: calc(100vw - 300px);
+    &__group-info{
+      height: 100px;
+      background-color: #ffffff;
+      display: flex;
+      justify-content: space-between;
+      .left-box{
+        padding: 35px 0 0 40px;
+        &__current-group{
+          color: #333333;
+          font-size: 20px;
+        }
+        &__member-list{
+          color: $greyForText;
+          font-size: 12px;
+          display: flex;
+          margin-top: 15px;
+          &__member{
+            margin-left: 5px;
+          }
+        }
+      }
+      .edit-btn{
+        border: 1px solid $skyblueForBtns;
+        margin: 28px 40px 0 0;
+        width: 72px;
+        height: 40px;
+        position: relative;
+        &__text{
+          line-height: 40px;
+          padding: 0 20px;
+          font-size: 16px;
+          color: $skyblueForBtns;
+          position: absolute;
+          top: 0;
+          left: 0;
+          height: 100%;
+          width: 100%;
+        }
+        :visited {
+          color: $skyblueForBtns;
+        }
+      }
+    }
+    &__message-list{
+      height: calc(100vh - 100px - 90px);
+      background-color: #fafafa;
+      padding: 35px 40px;
+      .message{
+        margin-bottom: 46px;
+        &__upper-info{
+          margin-bottom: 12px;
+          display: flex;
+          &__name{
+            font-size: 16px;
+            font-weight: bold;
+            color: #333333;
+          }
+          &__created-at{
+            margin-left: 10px;
+            font-size: 12px;
+            color: $greyForText;
+          }
+        }
+        &__text{
+          font-size: 14px;
+          color: #434A54;
+        }
+      }
+    }
+    &__message-form{
+      height: 90px;
+      background-color: #d2d2d2;
+      padding: 20px 40px;
+      .form-box{
+        display: flex;
+        &__input-area{
+          position: relative;
+          height: 50px;
+          align-items: center;
+          display: flex;
+          background-color: #ffffff;
+          width: calc(100vw - 300px - 80px - 100px - 15px);
+          .input-text{
+            padding: 0 10px;
+            height: 50px;
+            width: calc(100vw - 300px - 80px - 100px - 15px);
+          }
+          .pic-btn{
+            position: absolute;
+            right: 10px;
+            zoom: 1.5;
+            cursor: pointer;
+            .file-select{
+              display: none;
+            }
+          }
+        }
+      }
+      .submit-btn{
+        color: #ffffff;
+        background-color: $skyblueForBtns;
+        width: 100px;
+        margin-left: 15px;
+        cursor: pointer;
+      }
+    }
+  }
+  a{
+    text-decoration: none;
+  }
+}
