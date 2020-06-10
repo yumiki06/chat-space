@@ -2,14 +2,14 @@
   .side-bar__user-name
     .top-items
       %p.top-items__name
-        なまえ
+        = current_user.nickname
       %ul.top-items__icons
         %li.top-items__icons__icon-edit
           = link_to "#" do
             = icon('fas', 'edit')
             %span<>
         %li.top-items__icons__icon-cog
-          = link_to "#" do
+          = link_to edit_user_path(current_user) do
             = icon('fas', 'cog')
             %span<>
   .side-bar__group-list
