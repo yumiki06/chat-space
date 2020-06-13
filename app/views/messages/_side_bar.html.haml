@@ -13,8 +13,8 @@
             = icon('fas', 'cog')
             %span<>
   .side-bar__group-list
-    .group
-      .group__title
+    - current_user.groups.each do |group|
+      .group
         = link_to "#" do
           歓迎会
       .group__notification
