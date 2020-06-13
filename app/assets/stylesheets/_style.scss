@@ -1,4 +1,3 @@
-@import "variable";
 .wrapper{
   display: flex;
   .side-bar{
@@ -163,6 +162,7 @@
     }
   }
   a{
+    color: #ffffff;
     text-decoration: none;
   }
 }
