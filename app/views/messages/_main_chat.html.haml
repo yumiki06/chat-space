@@ -13,22 +13,8 @@
         .edit-btn__text
           Edit
   .main-chat__message-list
-    .message
-      .message__upper-info
-        %p.message__upper-info__name
-          Hage
-        %p.message__upper-info__created-at
-          2020/06/05(Fri) 17:00:00
-      .message__text
-        お疲れ様です
-    .message
-      .message__upper-info
-        %p.message__upper-info__name
-          Hage
-        %p.message__upper-info__created-at
-          2020/06/05(Fri) 17:00:00
-      .message__text
-        お疲れ様です
+    .messages
+      = render @messages
   .main-chat__message-form
     .form-box
       .form-box__input-area
