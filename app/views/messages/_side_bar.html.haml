@@ -18,5 +18,5 @@
         = link_to "#" do
           .group__title
             = group.name
-          .group__notification
-            まだメッセージがありません
+          .group__message
+            = group.show_last_message
