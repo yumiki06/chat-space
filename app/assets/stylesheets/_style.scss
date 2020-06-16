@@ -153,6 +153,9 @@
           }
         }
       }
+      .new_message {
+        display: flex;
+      }
       .submit-btn{
         color: #ffffff;
         background-color: $skyblueForBtns;
