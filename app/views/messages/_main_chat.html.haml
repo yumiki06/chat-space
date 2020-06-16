@@ -6,11 +6,8 @@
       %ul.left-box__member-list
         Member:
         %li.left-box__member-list__member
-          AAA
-        %li.left-box__member-list__member
-          BBB
-        %li.left-box__member-list__member
-          CCC
+          - @group.users.each do |user|
+            = user.nickname
     .edit-btn
       = link_to "#" do
         .edit-btn__text
