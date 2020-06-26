@@ -12,5 +12,7 @@
     })
       .done(function(data){
         var html = buildHTML(data);
+        $('.main-chat__message-list').append(html);
+        $('form')[0].reset();
       })
 });
