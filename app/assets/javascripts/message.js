@@ -1,3 +1,25 @@
+$(function(){
+
+  function buildHTML(message){
+    if ( message.image ) {
+      var html =
+      `<div class="message">
+        <div class="message__upper-info">
+          <p class="message__upper-info__name">
+            ${message.user_nickname}
+          </p>
+          <p class="message__upper-info__created-at">
+            ${message.created_at}
+          </p>
+        </div>
+        <div class="message__text">
+          <p class="lower-message__content">
+            ${message.text}
+          </p>
+        </div>
+        <img src=${message.image} >
+      </div>`
+      return html;
   $('#new_message').on('submit', function(e){
     e.preventDefault();
     var formData = new FormData(this);
