@@ -17,4 +17,9 @@
         $('.main-chat__message-list').animate({ scrollTop: $('.main-chat__message-list')[0].scrollHeight});
         $('.submit-btn').prop('disabled', false);
       })
+      .fail(function(){
+        alert('メッセージの送信に失敗しました');
+        $('.submit-btn').prop('disabled', false);
+      })
+  });
 });
