@@ -10,4 +10,7 @@
       processData: false,
       contentType: false
     })
+      .done(function(data){
+        var html = buildHTML(data);
+      })
 });
