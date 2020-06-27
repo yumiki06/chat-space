@@ -49,3 +49,7 @@ $(function(){
           });
         } else if (input.length == 0) {
           return false;
+        } else {
+          addNoUser();
+        }
+      })
