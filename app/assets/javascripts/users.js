@@ -26,3 +26,9 @@ $(function(){
     </div>`;
     $(".js-add-user").append(html);
   }
+
+  function addMember(userId) {
+    let html = `<input value="${userId}" name="group[user_ids][]" type="hidden" id="group_user_ids_${userId}" />`;
+    $(`#${userId}`).append(html);
+  }
+
