@@ -53,3 +53,8 @@ $(function(){
           addNoUser();
         }
       })
+      .fail(function() {
+        alert('通信エラーです。ユーザーを表示できません。');
+      });
+  });
+
