@@ -47,3 +47,5 @@ $(function(){
           users.forEach(function(user){
             addUser(user);
           });
+        } else if (input.length == 0) {
+          return false;
