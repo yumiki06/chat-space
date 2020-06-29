@@ -3,7 +3,7 @@ $(function(){
   function buildHTML(message){
     if ( message.image ) {
       let html =
-      `<div class="message">
+      `<div class="message" data-message-id=${message.id}>
         <div class="message__upper-info">
           <p class="message__upper-info__name">
             ${message.user_nickname}
@@ -22,7 +22,7 @@ $(function(){
       return html;
     } else {
       let html =
-      `<div class="message">
+      `<div class="message" data-message-id=${message.id}>
         <div class="message__upper-info">
           <p class="message__upper-info__name">
             ${message.user_nickname}
