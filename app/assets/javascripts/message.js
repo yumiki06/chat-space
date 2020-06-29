@@ -91,3 +91,7 @@ $(function(){
         $('.main-chat__message-list').animate({ scrollTop: $('.main-chat__message-list')[0].scrollHeight});
       }
     })
+    .fail(function() {
+      alert('error');
+    });
+  };
