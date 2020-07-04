@@ -38,6 +38,8 @@ li {
     border: 1px solid #ddd;
     border-radius: 2px;
     text-align: center;
+    color: #f05050
+
   }
   &__label {
     display: block;
@@ -104,8 +106,4 @@ li {
       color: #f05050;
     }
   }
-}
-
-.chat-group-form__errors h2{
-  color: #f05050;
 }
